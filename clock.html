@@ -1,0 +1,40 @@
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="clock.css">
+
+<body>
+  <div class="container">
+
+    <div id="dial">
+      <div id="display1"></div>
+      <div id="display2"></div>
+    </div><br>
+
+    <h3 id="head">Session 1</h3>
+
+    <div id="time">
+      <div id="session">
+        <p>session time</p>
+        <div id="s_timer">20 min</div>
+        <button id="s_minus">-</button>
+        <button id="s_plus">+</button>
+      </div>
+      <div id="break">
+        <p>break time</p>
+        <div id="b_timer">5 min</div>
+        <button id="b_minus">-</button>
+        <button id="b_plus">+</button>
+      </div>
+    </div>
+
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    <button id="reset">Reset</button>
+  </div>
+  </body>
+
+  <script src="clock.js"></script>
+</html>
